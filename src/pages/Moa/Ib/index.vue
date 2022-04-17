@@ -138,7 +138,7 @@ export default {
 <style lang="scss" scoped>
 .moa-list{
 	ul{
-		li{display:flex; padding:15px 0; border-bottom:solid 1px #eee; font-size:$p; align-items:center;
+		li{display:flex; padding:15px 0; border-bottom:solid 1px #eee; font-size:$mf; align-items:center;
 			.no{display:flex; background:#b8dcff; width:20px; height:20px; margin-right:10px; border-radius:50%; color:#fff; align-items:center; justify-content:center;}
 			.title{display:flex; padding:0 10px; border-right:solid 1px #000; border-left:solid 1px #000; align-items:center; flex:1;
 				&[type="photo"]::before{content:""; display:block; background:url("@/assets/images/icon/icon_photo.png") 0 0 no-repeat; background-size:100% 100%; width:21px; height:16px; margin-right:5px;}

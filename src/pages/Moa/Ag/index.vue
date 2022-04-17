@@ -159,10 +159,10 @@ export default {
 <style lang="scss" scoped>
 .moa-list {
 	ul {
-		li{display:flex; padding:15px 0; border-bottom:solid 1px #eee; font-size:$p; align-items:center;
+		li{display:flex; padding:15px 0; border-bottom:solid 1px #eee; font-size:$mf; align-items:center;
 			.no{display:flex; background:#b8dcff; width:20px; height:20px; margin-right:10px; border-radius:50%; color:#fff; align-items:center; justify-content:center;}
 			.pos{padding:0 15px; border-left: solid 1px #000;}
-			.title{font-size: $p; border-left:solid 1px #000; border-right:solid 1px #000; flex:1; padding:0 10px;
+			.title{font-size: $mf; border-left:solid 1px #000; border-right:solid 1px #000; flex:1; padding:0 10px;
 				display: flex;
 				align-items: center;
 				&[type="photo"]::before{content: ""; display: block; width: 21px;height:16px; background: url("@/assets/images/icon/icon_photo.png") 0 0 no-repeat; background-size: 100% 100%; margin-right: 5px;}
@@ -174,4 +174,13 @@ export default {
 		}
 	}
 }
+
+.search-box{
+	button{border:0; background: none;
+		& + button{margin-left: 15px;}
+		&.btn-hot svg{width: 25px;}
+		&.btn-search svg{width: 25px;}
+	}
+}
+
 </style>

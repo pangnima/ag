@@ -190,9 +190,9 @@ export default {
 <style lang="scss" scoped>
 .board-viewer{
 	.view-info{display:flex; justify-content:space-between;
-		.title{padding-bottom:10px;font-size:$h2;}
-		.nick{font-size:$p;}
-		.time{font-size:$p;}
+		.title{padding-bottom:10px;font-size:$tf;}
+		.nick{font-size:$mf;}
+		.time{font-size:$mf;}
 		.thum{width:100px;}
 	}
 	.detail{
@@ -210,7 +210,7 @@ export default {
 	}
 	.board-txt{
 		padding:20px 0;
-		font-size: $pl;
+		font-size: $mf;
 	}
 	.board-list{
 		background: #eee;

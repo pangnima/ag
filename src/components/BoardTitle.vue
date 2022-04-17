@@ -20,9 +20,9 @@ export default {
 <style lang="scss" scoped>
 	.title{
 		display: flex; align-items:flex-end;
-		font-size: $p;
+		font-size: $mf;
 		line-height: 1;
-		h2{font-size: $h2; line-height: 1;}
+		h2{font-size: $tf; line-height: 1;}
 		a {margin-left: 14px; line-height: 1; display: flex;
 			align-items: center;
 			svg{width:10px; margin-left: 4px; margin-top:1px}

@@ -223,9 +223,9 @@ export default {
 
 .board-viewer{
 	.view-info{display:flex; justify-content:space-between;
-		.title{padding-bottom:10px;font-size:$h2;}
-		.nick{font-size:$p;}
-		.time{font-size:$p;}
+		.title{padding-bottom:10px;font-size:$tf;}
+		.nick{font-size:$mf;}
+		.time{font-size:$mf;}
 		.thum{width:100px;}
 	}
 	.detail{
@@ -243,7 +243,7 @@ export default {
 	}
 	.board-txt{
 		padding:20px 0;
-		font-size: $pl;
+		font-size: $mf;
 	}
 	.board-list{
 		background: #eee;
@@ -254,7 +254,7 @@ export default {
 	.outer-link{
 		border:solid 1px #eee;
 		padding:10px 30px;
-		font-size: $p;
+		font-size: $mf;
 		text-align: center;
 		width: 730px;
 		margin:50px auto;
@@ -285,8 +285,7 @@ export default {
 }
 
 .comment-list{
-	margin-top:10px;
-	li{margin-top:20px;}
+	li{margin-top:10px;}
 	.comment-header{
 		background: #eee;
 		padding:10px 20px;
@@ -301,7 +300,7 @@ export default {
 		.nick{border:none;background: transparent; margin-left: 10px;}
 		.info{
 			margin-left: auto;
-			font-size:$p;
+			font-size:$mf;
 			display: flex;
 			align-items: center;
 			> span{margin-left: 20px; display: inline-block;}

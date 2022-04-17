@@ -4,15 +4,28 @@
 		<div class="upload">
 			<dl>
 				<dt>움짤 제목</dt>
-				<dd><input type="text"></dd>
+				<dd>
+					<div>
+						<input type="text">
+					</div>
+				</dd>
 			</dl>
 			<dl>
 				<dt>움짤의 주인공은 누구인가요?(2명 이상이면 대표 BJ만 선택해주세요)</dt>
-				<dd><input type="text"></dd>
+				<dd>
+					<div>
+						<input type="text" placeholder="BJ를 입력하세요">
+					</div>
+					<p>입력하신 BJ가 없어요</p>	
+				</dd>
 			</dl>
 			<dl>
 				<dt>파일 첨부</dt>
-				<dd><input type="text"><button type="button" class="btn-file"><span>파일찾기</span></button></dd>
+				<dd>
+					<div>
+						<input type="text"><button type="button" class="btn-file"><span>파일찾기</span></button>
+					</div>
+				</dd>
 			</dl>
 			<div class="btn-box">
 				<button type="button" class="btn-upload"><span>올리기</span></button>
@@ -22,14 +35,8 @@
 </template>
 
 <script>
-	// import IconSearch from '@/assets/icon/ico_search.vue';
-	// import ContentsInfo from '@/components/ContentInfo.vue';
 	export default {
-		name: 'MovePhoto',
-		components:{
-			// IconSearch,
-			// ContentsInfo
-		}
+		name: 'MovePhotoUpload',
 	}
 </script>
 <style lang="scss" scoped>
@@ -57,12 +64,17 @@
 			dt{font-size: 18px;}
 			dd{
 				margin-top:10px;
-				display: flex;
-				input{width: 100%;
+				> div {
+					display: flex;
+				}
+				input{
+					width: 100%;
+					flex:1;
 					border:solid 1px #ccc;
 					padding:10px 20px;
 					border-radius: 5px;
 				}
+				p{color:#ff5555; margin-top:10px}
 			}
 		}
 		button[class^=btn-]{

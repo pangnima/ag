@@ -6,6 +6,14 @@
 				<router-link to="/mphoto/list">리스트로 보기</router-link>
 				<router-link to="/mphoto/bj">BJ별로 보기</router-link>
 			</div>
+			<div class="search-box">
+				<div class="btn-search">
+					<label for="search">
+						<input type="text" placeholder="검색어" id="search">
+						<IconSearch></IconSearch>
+					</label>
+				</div>
+			</div>
 			<div class="sort-box">
 				<button type="button" class="active"><span>인기순
 					<svg viewBox="0 0 24 24">
@@ -21,40 +29,30 @@
 </template>
 
 <script>
-	// import IconSearch from '@/assets/icon/ico_search.vue';
-	// import ContentsInfo from '@/components/ContentInfo.vue';
+	import IconSearch from '@/assets/icon/ico_search.vue';
 	export default {
 		name: 'MovePhoto',
 		components:{
-			// IconSearch,
-			// ContentsInfo
+			IconSearch,
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
 .container{padding-top:60px;}
-.sub-menu{display:flex; padding:30px 0; align-items:center; justify-content:space-between;}
+.sub-menu{display:flex; padding:30px 0; align-items:center;}
 .title{font-size:30px;}
 .tab{display:flex; align-items:center;
 	a{padding:5px 30px; border:solid 1px #eee; border-radius:10px;
 		&.router-link-exact-active{background:#ddeef6;}
-		
 		& + a{margin-left:10px;}
 	}
 }
-.search-box{
-	button{border:0; background: none;
-		& + button{margin-left: 15px;}
-		&.btn-hot svg{width: 25px;}
-		&.btn-search svg{width: 25px;}
-	}
-}
-
 
 // 움짤
 .sort-box{
 	display: flex;
+	margin-left: auto;
 	button{
 		font-size: 16px;
 		margin-right: 20px;
@@ -68,6 +66,21 @@
 			background: #000;
 			color:#fff;
 		}
+	}
+}
+.search-box{
+	display: flex;
+	align-items: center;
+	.btn-hot{height: 40px; display: flex; align-items: center;}
+	.btn-hot svg{width: 20px; height:20px}
+	.btn-search svg{width: 20px; height: 20px;}
+	.btn-search input{width:0; border:0; transition: all .5s; cursor: pointer; margin:0 10px 0 10px; height: 40px; border-bottom:solid 1px transparent}
+	.btn-search label{display: flex;align-items: center; cursor: pointer;}
+	.btn-search label:active,
+	.btn-search label:focus,
+	.btn-search label:hover
+	{
+		input{width: 200px; border-bottom:solid 1px #777; padding:0 10px;}
 	}
 }
 .mphoto-box {
@@ -84,7 +97,7 @@
 			}
 			.info-box{
 				padding:15px;
-				.title{font-size: $pl;
+				.title{font-size: $mf;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					display: -webkit-box;

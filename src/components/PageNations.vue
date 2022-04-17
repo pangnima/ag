@@ -19,7 +19,7 @@ export default {
 		display: flex;
 		justify-content: center;
 		padding:50px 0;
-		a{ font-size: $p; border:solid 1px #707070; padding:5px 10px; box-sizing: border-box; margin:0 5px; border-radius:2px;
+		a{ font-size: $mf; border:solid 1px #707070; padding:5px 10px; box-sizing: border-box; margin:0 5px; border-radius:2px;
 			&.active{
 				background: #707070;
 				color:#fff;
