@@ -1,19 +1,19 @@
 <template>
 	<div class="contents-info">
-		<p class="like"><IconLike/> 999,999</p>
+		<!-- <p class="like"><IconLike/> 999,999</p>
 		<p class="comment"><IconComment/>999,999</p>
-		<p class="time">999,999</p>
+		<p class="time">999,999</p> -->
 	</div>
 </template>
 
 <script>
-import IconLike from '@/assets/icon/ico_like.vue'
-import IconComment from '@/assets/icon/ico_comment.vue'
+// import IconLike from '@/assets/icon/ico_like.vue'
+// import IconComment from '@/assets/icon/ico_comment.vue'
 export default {
 	name : 'contentsInfo',
 	components : {
-		IconLike,
-		IconComment
+		// IconLike,
+		// IconComment
 	}
 }
 </script>

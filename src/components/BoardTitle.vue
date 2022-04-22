@@ -1,16 +1,16 @@
 <template>
 	<div class="title">
 		<h2>{{title}}</h2>
-		<router-link to=""><span>더보기</span> <icon-arrow></icon-arrow></router-link>
+		<router-link to=""><span>더보기</span></router-link>
 	</div>
 </template>
 
 <script>
-import IconArrow from '../assets/icon/ico_arrow.vue';
+// import IconArrow from '../assets/icon/ico_arrow.vue';
 export default {
 	name:'BoardTitle',
 	components:{
-		IconArrow
+		// IconArrow
 	},
 	props:['title'],
 

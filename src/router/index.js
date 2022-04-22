@@ -1,16 +1,16 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '../pages/MainPage.vue';
-import MoaPage from '../pages/Moa/index.vue';
-import MoaIB from '../pages/Moa/Ib/index.vue';
+// import MoaPage from '../pages/Moa/index.vue';
+// import MoaIB from '../pages/Moa/Ib/index.vue';
 
 // 전체 게시판
 import BoardAll from '../pages/BoardAll/index.vue';
 import BoardDetail from '../pages/BoardAll/BoardDetail.vue';
 import BoardWrite from '../pages/BoardAll/BoardWrite.vue';
 
-import MoaAg from '../pages/Moa/Ag/index.vue';
-import AgView from '../pages/Moa/Ag/view/index.vue';
+// import MoaAg from '../pages/Moa/Ag/index.vue';
+// import AgView from '../pages/Moa/Ag/view/index.vue';
 // 움짤
 import MovePhoto from '../pages/Mphoto/index.vue';
 import MovePhotoList from '../pages/Mphoto/list/index.vue';
@@ -85,27 +85,27 @@ const routes = [
 
 
 
-	{
-		path: '/moa',
-		name: 'moapage',
-		component: MoaPage,
-		redirect:'/moa/ag/',
-		children:[
-			{
-				path:'ib',
-				component:MoaIB,
-			},
-			{
-				path:'ag',
-				component:MoaAg,
-			},
-		]
-	},
-	{
-		path:'/moa/ag/view',
-		name:'views',
-		component: AgView
-	},
+	// {
+	// 	path: '/moa',
+	// 	name: 'moapage',
+	// 	component: MoaPage,
+	// 	redirect:'/moa/ag/',
+	// 	children:[
+	// 		{
+	// 			path:'ib',
+	// 			component:MoaIB,
+	// 		},
+	// 		{
+	// 			path:'ag',
+	// 			component:MoaAg,
+	// 		},
+	// 	]
+	// },
+	// {
+	// 	path:'/moa/ag/view',
+	// 	name:'views',
+	// 	component: AgView
+	// },
 	{
 		path:'/mphoto',
 		name:'MovePhoto',

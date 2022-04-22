@@ -4,7 +4,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -19,7 +19,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표..</h2>
@@ -34,7 +34,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -49,7 +49,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표..</h2>
@@ -64,7 +64,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -79,7 +79,7 @@
 			<li>
 				<router-link to="/mphoto/detail">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표.. 움짤 제목을 길게 보여주면서 길 면 2줄까지 보여주고 말줄임표..</h2>

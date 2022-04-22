@@ -12,7 +12,7 @@
 				<!-- 왼쪽 메인 움짤 -->
 				<div class="main-photo">
 					<div class="thumb">
-						<img src="@/assets/images/m_thumb.png" alt="썸네일">
+						<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 					</div>
 					<div class="info-box">
 						<h2 class="title">제목을 길게 보여주면서 길면 2줄까지 
@@ -34,7 +34,7 @@
 					<ul>
 						<li>
 							<div class="thumb">
-								<img src="@/assets/images/m_thumb.png" alt="썸네일">
+								<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 							</div>
 							<div class="info-box">
 								<h2 class="title">감스트 복종햇!!!!!!! 감스트 복종햇!!!!!!! 감스트 복종햇!!!!!!! 감스트 복종햇!!!!!!! 감스트 복종햇!!!!!!! </h2>
@@ -47,7 +47,7 @@
 						</li>
 						<li>
 							<div class="thumb">
-								<img src="@/assets/images/m_thumb.png" alt="썸네일">
+								<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 							</div>
 							<div class="info-box">
 								<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -60,7 +60,7 @@
 						</li>
 						<li>
 							<div class="thumb">
-								<img src="@/assets/images/m_thumb.png" alt="썸네일">
+								<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 							</div>
 							<div class="info-box">
 								<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -73,7 +73,7 @@
 						</li>
 						<li>
 							<div class="thumb">
-								<img src="@/assets/images/m_thumb.png" alt="썸네일">
+								<!-- <img src="@/assets/images/m_thumb.png" alt="썸네일"> -->
 							</div>
 							<div class="info-box">
 								<h2 class="title">감스트 복종햇!!!!!!!</h2>
@@ -96,7 +96,7 @@
 
 				</div>
 				<div class="owner">
-					<img src="@/assets/images/icon_thumb.png" alt="">
+					<!-- <img src="@/assets/images/icon_thumb.png" alt=""> -->
 					<span class="nick">주보리</span>
 				</div>
 				<div class="btn-container">
@@ -119,7 +119,7 @@
 					<li>
 						<div class="comment-header">
 							<div class="thumb">
-								<img src="@/assets/images/icon_thumb.png" alt="">
+								<!-- <img src="@/assets/images/icon_thumb.png" alt=""> -->
 							</div>
 							<span class="tag">BEST</span>
 							<button type="button" class="nick"><span>감스트주보리우결단</span></button>
@@ -142,11 +142,11 @@
 </template>
 
 <script>
-import IconLike from "../../../components/icon/IconLike.vue"
-import IconComment from "../../../components/icon/IconComment.vue"
+// import IconLike from "../../../components/icon/IconLike.vue"
+// import IconComment from "../../../components/icon/IconComment.vue"
 export default {
 	components:{
-		IconLike,IconComment
+		// IconLike,IconComment
 	}
 
 }
@@ -271,7 +271,7 @@ export default {
 			width: 20px;
 			height: 20px;
 			margin-right: 10px;
-			background: url('@/assets/images/icon/icon_comment_25.png') 0 0 no-repeat;
+			// background: url('@/assets/images/icon/icon_comment_25.png') 0 0 no-repeat;
 			background-size: 100% 100%;
 		}
 	}
@@ -329,7 +329,7 @@ export default {
 				&.btn-more{
 					font:0/0 a;
 					width: 20px; height: 20px;
-					background: url('@/assets/images/icon/ico_more.svg') 50% 50% no-repeat;
+					// background: url('@/assets/images/icon/ico_more.svg') 50% 50% no-repeat;
 					background-size: 15px 15px;
 					position: relative;
 					.layer-pop{

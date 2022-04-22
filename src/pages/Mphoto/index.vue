@@ -29,11 +29,11 @@
 </template>
 
 <script>
-	import IconSearch from '@/assets/icon/ico_search.vue';
+	// import IconSearch from '@/assets/icon/ico_search.vue';
 	export default {
 		name: 'MovePhoto',
 		components:{
-			IconSearch,
+			// IconSearch,
 		}
 	}
 </script>
